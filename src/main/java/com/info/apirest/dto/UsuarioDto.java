@@ -15,7 +15,7 @@ public class UsuarioDto {
     private LocalDate fechaCreacion;
     private String ciudad;
     private String provincia;
-    private String pais; 
+    private String pais;  
  
     public UsuarioDto(Usuario usuario){
         this.id = usuario.getId();

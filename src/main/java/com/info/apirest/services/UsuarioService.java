@@ -19,7 +19,7 @@ public class UsuarioService {
 
     public UsuarioDto crearUsuario(Usuario nuevoUsuario){
         return new UsuarioDto(usuarioRepo.save(nuevoUsuario));
-    }
+    } 
 
     public List<UsuarioDto> buscarUsuario(){
         return usuarioRepo.findAll().stream().map(UsuarioDto::new).collect(Collectors.toList());

@@ -15,7 +15,7 @@ public class Orden {
 
    @Id
    private Long id;
-
+ 
    @ManyToOne(fetch = FetchType.LAZY, targetEntity = Usuario.class)
    @JoinColumn(name = "FK_usuario")
    private Usuario usuario;

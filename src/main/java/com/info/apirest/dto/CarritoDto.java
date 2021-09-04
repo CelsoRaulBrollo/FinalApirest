@@ -14,6 +14,6 @@ public class CarritoDto {
  
    public List<Detalle> getDetalle() { return detalle; }
 
-   public void setDetalle(List<Detalle> detalle) { this.detalle = detalle; }
+   public void setDetalle(List<Detalle> detalle) { this.detalle = detalle; } 
 }
  

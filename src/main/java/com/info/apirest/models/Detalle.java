@@ -14,7 +14,7 @@ public class Detalle {
    @GeneratedValue(strategy = GenerationType.IDENTITY)
    private Long id;
 
-   @ManyToOne
+   @ManyToOne 
    @JoinColumn(name = "FK_producto")
    private Producto producto; 
    @JsonIgnore

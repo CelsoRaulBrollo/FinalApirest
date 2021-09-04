@@ -14,7 +14,7 @@ import java.time.LocalDate;
  
 @Entity
 public class Producto {
-
+ 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

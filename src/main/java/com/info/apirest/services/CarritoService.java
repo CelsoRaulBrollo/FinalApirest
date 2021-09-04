@@ -18,7 +18,7 @@ public class CarritoService {
       }
       usuario.addCarrito(requestCart);
    }
- 
+  
 
    public void updatePreparation(Carrito carrito, CarritoDto requestCart) {
       for (Detalle detalle: requestCart.getDetalle()) {

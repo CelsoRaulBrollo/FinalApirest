@@ -19,4 +19,4 @@ public interface UsuarioRepo extends JpaRepository<Usuario, Long> {
     @Query("FROM Usuario WHERE fechaCreacion >= ?1")
     List <Usuario> findByFechaDeCreacionAfter(LocalDate fechaCreacion);
 }
-  
+   

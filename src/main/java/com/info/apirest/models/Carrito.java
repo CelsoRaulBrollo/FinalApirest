@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-public class Carrito {
+public class Carrito { 
 
    @Id 
    @GeneratedValue(strategy = GenerationType.IDENTITY)

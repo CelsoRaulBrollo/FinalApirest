@@ -18,4 +18,4 @@ public class DetalleService {
       detalle.setMonto(requestDetail.getMonto());
    }
 }
- 
+  

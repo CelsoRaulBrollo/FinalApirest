@@ -9,4 +9,4 @@ import org.springframework.stereotype.Repository;
 public interface DetalleRepo extends JpaRepository<Detalle, Long> {
 
 }
-  
+   

@@ -16,7 +16,7 @@ public class ProductoService {
     public Producto guardarProducto(Producto producto){
         return productoRepository.save(producto);
     }
-
+ 
     public ArrayList<Producto> obtenerTodosLosProductos() {
         return (ArrayList<Producto>) productoRepository.findAll(); 
     } 

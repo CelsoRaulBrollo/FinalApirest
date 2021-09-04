@@ -15,7 +15,7 @@ public class DetalleDto {
    @Positive
    private Integer monto;
    @Positive
-   private BigDecimal precioUnitario;
+   private BigDecimal precioUnitario; 
 
 
    public DetalleDto() {} 

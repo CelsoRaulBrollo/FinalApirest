@@ -18,7 +18,7 @@ public class ProductoDto {
 	@Length(min = 20, max = 200)
 	private String descripcion;
 
-	@NotNull
+	@NotNull 
 	@Positive
 	private BigDecimal precioUnitario;
 

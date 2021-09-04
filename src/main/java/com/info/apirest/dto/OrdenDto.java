@@ -17,7 +17,7 @@ public class OrdenDto {
 
    public void setCarrito(Carrito carrito) {
       this.carrito = carrito;
-   }
+   } 
     
    
    public String getObservacion() { return observacion; }

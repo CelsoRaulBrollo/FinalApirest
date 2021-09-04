@@ -11,4 +11,4 @@ public interface ProductoRepo extends JpaRepository<Producto, Long> {
    List<Producto> findByNombre(String nombre);
 
    List<Producto> findByPublicado(boolean publicado);
-}  
+}   

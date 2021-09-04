@@ -14,7 +14,7 @@ import com.info.apirest.services.UsuarioService;
 @RestController
 public class UsuarioController {
 
-    @Autowired
+    @Autowired 
     private UsuarioService usuarioService;
 
     @GetMapping("api/v1/usuario")
